@@ -1,5 +1,5 @@
 # ANASTASIIA VEROIVSKA
-Email: veroivska@gmail.com +380688314838
+Email: veroivska@gmail.com __+380688314838__
 
 I'm an enthusiastic and detail-oriented Frontend Software
 Engineer seeking an entry-level position with Company to
