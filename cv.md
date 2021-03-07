@@ -33,3 +33,25 @@ window.addEventListener('keydown', (event) => {
 </div>
 })
 ```
+
+## Experience
+#### Website for a law firm
+* HTML coding based on layout
+* Css animation
+* JS slider
+* Accordion
+
+
+#### JS GameDev
+* 2d games
+
+
+## Education
+B.S in Software engineer
+State University of Telecommunications
+*3.9.2018 - Present*
+
+## Languages
+* English - Intermediate
+* Russian - Native speaker
+* Ukrainian - Native speaker
