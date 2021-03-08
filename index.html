@@ -1,48 +1,135 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>CV</title>
-</head>
-<body>
-    <header>
-        СV
-    </header>
-
+  </head>
+  <body>
     <div class="container">
-        <section>
-            <img src="/avatar.jpg" alt="profile photo">
+      <div class="container-left">
+        <figure class="avatar">
+          <img src="images/avatar.jpg" alt="profile photo" />
+        </figure>
+
+        <section class="contacts">
+          <h3>Contacts</h3>
+          <ul>
+            <li><strong>Phone</strong> <br />+380688314838</li>
+            <li><strong>Email</strong><br />veroiska@gmail.com</li>
+            <li><strong>Address</strong><br />Kyiv, Minsk avenue 8a</li>
+          </ul>
         </section>
 
-        <section>
-            <h1>ANASTASIIA VEROIVSKA</h1>
-        </section> 
+        <section class="education">
+          <h3>Education</h3>
+          <details>
+            <summary><b>State University of Telecommunications</b></summary>
+            <p>B.S in Software engineer</p>
+            <p>3.9.2018 - Present</p>
+          </details>
+          <details>
+            <summary><b>W3schoo</b></summary>
+            <p>Html/Css/Bootstrap/Sass</p>
+            <p>10.10.2019 - 29.05.2020</p>
+          </details>
+          <details>
+            <summary><b>Udemy</b></summary>
+            <p>JavaScript</p>
+            <p>8.06.2020 - Present</p>
+          </details>
+          <details>
+            <summary><b>ItProger</b></summary>
+            <p>Git/Creating a cool web page</p>
+            <p>3.08.2020 - 26.08.2020</p>
+          </details>
+        </section>
+        <section class="languages">
+          <h3>Languages</h3>
+          <p>
+            <b>English</b> - Intermediate <br />
+            <b> Russian</b> - Native speaker <br />
+            <b>Ukrainian</b> - Native speaker
+          </p>
+        </section>
+      </div>
 
-        <section>
-            
+      <div class="container-right">
+        <section class="profile">
+          <h1>ANASTASIIA VEROIVSKA</h1>
+          <h2>Front-End Developer</h2>
+          <h3>Profile</h3>
+          <p>
+            I'm an enthusiastic and detail-oriented Frontend Software Engineer
+            seeking an entry-level position with Company to use my skills in
+            coding, troubleshooting complex problems, and assisting in the
+            timely completion of projects.
+          </p>
         </section>
 
-        <section>
-            
+        <section class="skills">
+          <h3>Skills</h3>
+          <ul>
+            <li>Html5/Css3</li>
+            <li>Bootstrap</li>
+            <li>Sass/Scss</li>
+            <li>JavaScript</li>
+            <li>Gulp</li>
+          </ul>
         </section>
 
-        <section>
-            
+        <section class="experience">
+          <h3>Experience</h3>
+          <span><b>Website for a law firm</b></span>
+          <p>
+            HTML coding based on layout<br />
+            Css animation<br />
+            JS slider<br />
+            Accordion
+          </p>
+          <span><b>JS GameDev</b></span>
+          <p>2d games js</p>
         </section>
+        <section class="code">
+          <h3>Sample code</h3>
+          <details>
+            <summary><b>Get the keyCode</b></summary>
+            <pre><code>
+                const insert = document.getElementById('insert')
 
-        <section>
-            
+                window.addEventListener('keydown', (event) => {
+                  insert.innerHTML = `
+                  &lt;div class="key"&gt;
+                  ${event.key === ' ' ? 'Space' : event.key} 
+                  &lt;small&gt;event.key&lt;/small&gt;
+                &lt;/div&gt;
+                &lt;div class="key"&gt;
+                  ${event.keyCode}
+                  &lt;small>event.keyCode&lt;/small&gt;
+                &lt;/div&gt;
+                &lt;div class="key"&gt;
+                  ${event.code}
+                  &lt;small>event.code&lt;/small&gt;
+                &lt;/div&gt;
+                })
+            </code></pre>
+          </details>
         </section>
+      </div>
     </div>
 
     <footer>
-
+      <a href="https://github.com/veroivska" title="My GitHub">
+          <img src="images/icon-github.png" alt="icon-github">
+      </a>
+      <span>&copy; 2021</span>
     </footer>
-
-</body>
+  </body>
 </html>
